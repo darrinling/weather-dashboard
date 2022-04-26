@@ -40,7 +40,7 @@ function getLatLon() {
   var auth = 'id=0c8c16e2fdc01233e92bac3bc391f34b'
   var searchLocation = localStorage.getItem('city');
 
-  var url = 'http://api.openweathermap.org/geo/1.0/direct?q=' + searchLocation + '&limit=1&app' + auth;
+  var url = 'https://api.openweathermap.org/geo/1.0/direct?q=' + searchLocation + '&limit=1&app' + auth;
 
 
   fetch(url, options)
